@@ -34,7 +34,7 @@ const MORE_NAV = [
   { id: 'event-emails', label: 'Event Emails', icon: LayoutList, href: '/event-emails/' },
 ] as const
 
-const ASSET_BASE = ''
+const ASSET_BASE = process.env.NODE_ENV === 'production' ? '/portal-v2' : ''
 
 interface Props {
   activePage?: string
