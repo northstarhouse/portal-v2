@@ -15,7 +15,7 @@ function CoordIcon({ size = 15, strokeWidth = 1.75 }: { size?: number; strokeWid
 }
 
 const MAIN_NAV = [
-  { id: 'dashboard', label: 'Development', icon: LayoutDashboard, href: '/' },
+  { id: 'dashboard', label: 'Development', icon: LayoutDashboard, href: '/home' },
   { id: 'meetings', label: 'Meetings', icon: ClipboardList, href: '/meetings/' },
   { id: 'outreach', label: 'Outreach', icon: Megaphone, href: '/outreach/' },
   { id: 'data', label: 'Data', icon: BarChart2, href: '/data/' },
